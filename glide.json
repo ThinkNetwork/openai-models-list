@@ -1,29 +1,13 @@
-
 [
   {
     "kind": "column",
-    "name": "OpenAI (Assistants)",
-    "description": "Create, modify and run OpenAI Assistants.",
+    "name": "List OpenAI Models",
+    "description": "Retrieve all available models from OpenAI's API.",
     "author": "Gavin Horne <gavin@thinknetwork.com.au>",
     "params": [
       {
         "name": "api_key",
         "displayName": "OpenAI API Key (Required)",
-        "type": "string"
-      },
-      {
-        "name": "endpoint",
-        "displayName": "API Endpoint (Required)",
-        "type": "string"
-      },
-      {
-        "name": "body",
-        "displayName": "Body (JSON Schema Required)",
-        "type": "string"
-      },
-      {
-        "name": "json",
-        "displayName": "JSON Schema (Output)",
         "type": "string"
       }
     ],
